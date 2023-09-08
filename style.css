@@ -1,0 +1,61 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #feb236;
+}
+.header h1{
+    color: #d64161;
+    font-family: papyrus ;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+#btn-meme{
+    height: 50px;
+    width: 80px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: Gabriola;
+    font-weight: bold;
+    border: 2px solid #6b5b95;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+}
+#unplashImage{
+    height: 450px;
+    width: 650px;
+    object-fit: cover;
+    border: 6px double #d64161;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(234, 151, 7);
+}
+.meme-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.social , .boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.intro{
+    font-family: Gabriola;
+}
